@@ -1,0 +1,304 @@
+@media only screen and (max-width:1400px){
+    /* Nav2 */
+    .menu{
+        width: 53%;
+    }
+    .timing{
+        top: 45rem;
+    }
+    /* Counter */
+    .counter{
+        padding: 3rem 3.7rem;
+    }
+    .number h1:nth-child(1){
+        font-size: 3.7rem;
+    }
+    .number h1:nth-child(2){
+        font-size: 1.6rem;
+        margin-left: 0.9rem;
+    }
+}
+@media only screen and (max-width:1300px){
+    /* Nav1 */
+    .lang{
+        width: 30%;
+    }
+    /* Nav2 */
+    .nav2{
+        padding: 1.2rem 3rem;
+    }
+    .menu{
+        width: 56%;
+        margin-left: -2rem;
+    }
+    /* Dreams Car */
+    .DreamCarTxt{
+        width: 55%;
+    }
+    .DreamCarTxt h1{
+        font-size: 3.5rem;
+    }
+    .DreamCarImg{
+        width: 45%;
+    }
+    .DreamCarImg img{
+        width: 100%;
+    }
+    /* Timing */
+    .timing{
+        top: 43rem;
+        width: 80%;
+        left: 10rem;
+    }
+    /* Rent car */
+    .RentCarTxt{
+        width: 40%;
+    }
+    /* Counter */
+    .counter{
+        padding: 3rem 3.4rem;
+    }
+    .number h1:nth-child(1){
+        font-size: 3.4rem;
+    }
+    .number h1:nth-child(2){
+        font-size: 1.4rem;
+        margin-left: 0.9rem;
+    }
+}
+@media only screen and (max-width:1080px){
+    /* Nav2 */
+    .nav2{
+        padding: 1.2rem 1.5rem;
+    }
+    .logo img{
+        width: 50px;
+    }
+    .logo h2{
+        font-size: 2.2rem;
+    }
+    .menu{
+        width: 60%;
+        margin-left: -2rem;
+    }
+    .login button{
+        padding: 12px 15px;
+    }
+    /* Dreams Car */
+    .DreamCarTxt h1{
+        font-size: 3rem;
+    }
+    /* Timing */
+    .timing{
+        top: 42rem;
+        width: 90%;
+        left: 5rem;
+    }
+    /* Counter */
+    .counter{
+        padding: 2.5rem 2rem;
+    }
+    .number h1:nth-child(1){
+        font-size: 3rem;
+    }
+    .number h1:nth-child(2){
+        font-size: 1.4rem;
+        margin-left: 0.4rem;
+    }
+}
+@media only screen and (max-width:992px){
+    /* Nav1 */
+    .lang{
+        width: 35%;
+    }
+    /* Nav2 */
+    .menu{
+        width: 100%;
+    }
+    .menu ul{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 9rem;
+        left: -100%;
+        z-index: 2;
+        transition: all .5s;
+        background-color: #005085;
+        padding-bottom: 1rem;
+    }
+    .menu ul li{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .menu ul li a{
+        font-size: 24px;
+        width: 100%;
+        color: #fff;
+        line-height: 3;
+    }
+    .checkbtn{
+        display: block;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    #check:checked ~ main{
+        margin-top: 30rem;
+    }
+    .login{
+        display: none;
+    }
+    .loginMenu a{
+        display: inline;
+    }
+    .loginMenu button{
+        display: inline;
+    }
+    /* Timing */
+    .timing{
+        position: static;
+        width: 100%;
+        left: 0;
+    }
+    /* Rent car */
+    .RentCarTxt{
+        width: 50%;
+    }
+    /* Counter */
+    .number h1:nth-child(2){
+        font-size: 1.4rem;
+        margin-left: 1.5rem;
+    }
+}
+@media only screen and (max-width:880px){
+    .timing{
+        padding-bottom: 10px;
+    }
+    .Location{
+        width: 20%;
+    }
+    .Date,.Time,.DrpDate{
+        width: 20%;
+    }
+    .Search{
+       margin: auto;
+       border-radius: 10px;
+       padding: 10px;
+       text-align: center;
+    }
+    .Search p{
+        margin-bottom: 0;
+    }
+    /* Rent car */
+    .RentCarTxt{
+        width: 60%;
+    }
+}
+@media only screen and (max-width:768px){
+    /* Nav1 */
+    .nav1{
+        padding: 1rem 2rem;
+    }
+    .lang{
+        width: 40%;
+    }
+    /* Nav2 */
+    /* Dreams Car */
+    .DreamCarTxt{
+        width: 100%;
+    }
+    .DreamCarTxt h3{
+        font-size: 2rem;
+    }
+    .DreamCarTxt h1{
+        font-size: 4rem;
+    }
+    .DreamCarImg{
+        width: 70%;
+        margin: 3rem auto 0 auto;
+    }
+    .DreamCarImg img{
+        width: 100%;
+    }
+    /* Timing */
+    .Location{
+        width: 30%;
+    }
+    .Date,.Time,.DrpDate,.Search{
+        width: 25%;
+        margin: auto;
+        text-align: center;
+    }
+    /* Rent car */
+    .RentCarTxt{
+        width: 70%;
+    }
+    .counter{
+
+    }
+    /* Counter */
+    .number{
+        width: 100%;
+        margin: 15px auto;
+        border-bottom: 1px solid #005085;
+        padding-bottom: 10px;
+    }
+}
+@media only screen and (max-width:576px){
+    /* Nav1 */
+    .nav1{
+        padding: 1rem 1rem;
+    }
+    .lang{
+        width: 70%;
+    }
+    /* Timing */
+    .Location{
+        width: 50%;
+    }
+    .Date,.Time,.DrpDate,.Search{
+        width: 35%;
+        margin: auto;
+        text-align: center;
+    }
+    /* Rent car */
+    .RentCar{
+        padding-top: 2rem;
+    }
+    .RentCarTxt{
+        width: 80%;
+        margin: auto;
+        padding: 2rem;
+    }
+    .RentCarTxt h1{
+        font-size: 2.8rem;
+    }
+}
+@media only screen and (max-width:380px){
+    /* Dreams Car */
+    .DreamCarTxt h1{
+        font-size: 3rem;
+    }
+    .DreamCarTxt p{
+        font-size: 18px;
+    }
+    .storeBtn img{
+        width: 40%;
+    }
+    /* Timing */
+    .timing{
+        padding-bottom: 1rem;
+    }
+    .Location,.Date,.Time,.DrpDate,.Search{
+        width: 70%;
+        margin: auto;
+    }
+    .Location{
+        padding: 1rem 0;
+    }
+    /* Rent Car */
+    .RentCarTxt h1{
+        font-size: 2.4rem;
+    }
+}
