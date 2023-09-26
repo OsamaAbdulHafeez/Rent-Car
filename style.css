@@ -294,6 +294,7 @@ body{
 }
 .cars img{
     height: 150px;
+    width: 100%;
 }
 .cars h2{
     font-weight: 600;
@@ -302,5 +303,60 @@ body{
 .cars p{
     color: #3b3b3b;
     font-size: 22px;
+    font-weight: 600;
+}
+.cars button{
+    width: 90%;
+    margin: auto;
+    background: transparent;
+    color: #19a9e5;
+    border: 1px solid #19a9e5;
+    font-size: 22px;
+    height: 2.8rem;
+}
+.cars button i{
+    color: #19a9e5;
+    padding-left: 15px;
+}
+/* Suitable Car */
+.suitableCar{
+    padding: 20px;
+}
+.suitableCar h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.suitableCar p{
+    font-size: 20px;
+    color: #3b3b3b;
+    font-weight: 600;
+    width: 40%;
+    margin: auto;
+}
+.filter{
+    width: 50%;
+    margin: auto;
+}
+.filter select{
+    width: 100%;
+    height: 2.8rem;
+    padding-left: 10px;
+    background: transparent;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #5a5a5a;
+}
+.filter select option{
+    background: transparent;
+}
+.filter button{
+    width: 100%;
+    height: 2.8rem;
+    background-color: #19a9e5;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
     font-weight: 600;
 }
