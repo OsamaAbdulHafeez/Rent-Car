@@ -95,7 +95,7 @@
             <div class="timing">
                 <div class="Location">
                     <i class="fa fa-search" aria-hidden="true"></i>
-                    <p>Pick up location...</p>
+                    <input type="text" placeholder="Pick up Location">
                 </div>
                 <div class="Date">
                     <div style="align-self: center;">
@@ -231,51 +231,265 @@
                     </div>
                 </div>
             </div>
-            <section>
-                <div class="container-fluid suitableCar">
-                    <div class="row text-center">
-                        <div class="col-12 text-center">
-                            <h1>Book Your Suitable Car</h1>
-                            <p class="py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, nemo!
-                                Atque, ipsam qui?</p>
-                        </div>
+        </section>
+        <section>
+            <div class="container-fluid suitableCar">
+                <div class="row text-center">
+                    <div class="col-12 text-center">
+                        <h1>Book Your Suitable Car</h1>
+                        <p class="py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, nemo!
+                            Atque, ipsam qui?</p>
                     </div>
-                    <div class="row filter text-center mt-3">
-                        <div class="col-2">
-                            <select name="" id="">
-                                <option value="">price</option>
-                            </select>
+                </div>
+                <div class="row filter text-center mt-3">
+                    <div class="col-lg-2 col-md-4 col-12">
+                        <select name="" id="">
+                            <option value="">price</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 pb-3 col-12">
+                        <select name="" id="">
+                            <option value="">Model</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 pb-3 col-12">
+                        <select name="" id="">
+                            <option value="">Rating</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 pb-3 col-12">
+                        <select name="" id="">
+                            <option value="">Location</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 pb-3 col-12">
+                        <select name="" id="">
+                            <option value="">Color</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 pb-3 col-12">
+                        <button class="">Search</button>
+                    </div>
+                </div>
+
+
+                <div class="container-fluid">
+                    <div class="row cards">
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                            <div class="BookCar">
+                                <h2>Land Cruser</h2>
+                                <div class="BookCarImg">
+                                    <img src="./Assets/Images/LandCruiser.PNG" alt="...">
+                                </div>
+                                <div class="card-body p-0">
+                                    <h3 class="card-title">$80<span>/day</span></h3>
+                                    <div class="reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span>45 reviews</span>
+                                    </div>
+                                    <div class="carsignals">
+                                        <div class="signal">
+                                            <i class="fa-solid fa-gauge-high"></i>
+                                            <p>Speed</p>
+                                        </div>
+                                        <div class="signal">
+                                            <i class="fa-solid fa-universal-access"></i>
+                                            <p>AC</p>
+                                        </div>
+                                        <div class="signal">
+                                            <i class="fa-regular fa-face-tired"></i>
+                                            <p>Auto</p>
+                                        </div>
+                                        <div class="signal">
+                                            <i class="fa-solid fa-gas-pump"></i>
+                                            <p>Petrol</p>
+                                        </div>
+                                    </div>
+                                    <button class="btn">Rent Now</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-2">
-                            <select name="" id="">
-                                <option value="">Model</option>
-                            </select>
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                            <div class="BookCar">
+                                <h2>Allien 15</h2>
+                                <div class="BookCarImg">
+                                    <img src="./Assets/Images/Allen15.PNG" alt="...">
+                                </div>
+                                <div class="card-body p-0">
+                                    <h3 class="card-title">$70<span>/day</span></h3>
+                                    <div class="reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span>45 reviews</span>
+                                    </div>
+                                    <div class="carsignals">
+                                        <div class="signal">
+                                            <i class="fa-solid fa-gauge-high"></i>
+                                            <p>Speed</p>
+                                        </div>
+                                        <div class="signal">
+                                            <i class="fa-solid fa-universal-access"></i>
+                                            <p>AC</p>
+                                        </div>
+                                        <div class="signal">
+                                            <i class="fa-regular fa-face-tired"></i>
+                                            <p>Auto</p>
+                                        </div>
+                                        <div class="signal">
+                                            <i class="fa-solid fa-gas-pump"></i>
+                                            <p>Petrol</p>
+                                        </div>
+                                    </div>
+                                    <button class="btn">Rent Now</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-2">
-                            <select name="" id="">
-                                <option value="">Rating</option>
-                            </select>
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                            <div class="BookCar">
+                                <h2>BMW</h2>
+                                <div class="BookCarImg">
+                                    <img src="./Assets/Images/BMW.PNG" alt="...">
+                                </div>
+                                <div class="card-body p-0">
+                                    <h3 class="card-title">$120<span>/day</span></h3>
+                                    <div class="reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span>45 reviews</span>
+                                    </div>
+                                    <div class="carsignals">
+                                        <div class="signal">
+                                            <i class="fa-solid fa-gauge-high"></i>
+                                            <p>Speed</p>
+                                        </div>
+                                        <div class="signal">
+                                            <i class="fa-solid fa-universal-access"></i>
+                                            <p>AC</p>
+                                        </div>
+                                        <div class="signal">
+                                            <i class="fa-regular fa-face-tired"></i>
+                                            <p>Auto</p>
+                                        </div>
+                                        <div class="signal">
+                                            <i class="fa-solid fa-gas-pump"></i>
+                                            <p>Petrol</p>
+                                        </div>
+                                    </div>
+                                    <button class="btn">Rent Now</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-2">
-                            <select name="" id="">
-                                <option value="">Location</option>
-                            </select>
-                        </div>
-                        <div class="col-2">
-                            <select name="" id="">
-                                <option value="">Color</option>
-                            </select>
-                        </div>
-                        <div class="col-2">
-                            <button class="">Search</button>
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                            <div class="BookCar">
+                                <h2>Honda Jazz</h2>
+                                <div class="BookCarImg">
+                                    <img src="./Assets/Images/HondaJazz.PNG" alt="...">
+                                </div>
+                                <div class="card-body p-0">
+                                    <h3 class="card-title">$60<span>/day</span></h3>
+                                    <div class="reviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span>45 reviews</span>
+                                    </div>
+                                    <div class="carsignals">
+                                        <div class="signal">
+                                            <i class="fa-solid fa-gauge-high"></i>
+                                            <p>Speed</p>
+                                        </div>
+                                        <div class="signal">
+                                            <i class="fa-solid fa-universal-access"></i>
+                                            <p>AC</p>
+                                        </div>
+                                        <div class="signal">
+                                            <i class="fa-regular fa-face-tired"></i>
+                                            <p>Auto</p>
+                                        </div>
+                                        <div class="signal">
+                                            <i class="fa-solid fa-gas-pump"></i>
+                                            <p>Petrol</p>
+                                        </div>
+                                    </div>
+                                    <button class="btn">Rent Now</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
+        </section>
+        <section>
+            <div class="container-fluid off30">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="./Assets/Images/30off.PNG" alt="">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid BetterExperience">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 BtExperienceImg">
+                        <img src="./Assets/Images/HRVRental.png" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-12 px-md-5 px-5 BetterExperienceTxt">
+                        <h3>Explore our First Class Service</h3>
+                        <h1>Feel the best experience <span>rental</span> deal</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit fugiat, facilis a vitae praesentium labore delectus optio accusamus aliquam</p>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-12 col-md-6 col-12 RentBestService">
+                                <i class="fa-solid fa-car-side"></i>
+                                <div class="RentBestServiceTxt">
+                                    <h3>Variety of Brands</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-12 col-md-6 col-12 RentBestService">
+                                <i class="fa-solid fa-person-running"></i>
+                                <div class="RentBestServiceTxt">
+                                    <h3>Quality Driver</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-12 col-md-6 col-12 RentBestService">
+                                <i class="fa-solid fa-ban"></i>
+                                <div class="RentBestServiceTxt">
+                                    <h3>Free Cancellation</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-12 col-md-6 col-12 RentBestService">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div class="RentBestServiceTxt">
+                                    <h3>Best Security</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <script src="app.js"></script>
+    <!-- Jquery Cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </body>
 
 </html>

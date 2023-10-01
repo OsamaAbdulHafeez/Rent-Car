@@ -17,6 +17,14 @@
         font-size: 1.6rem;
         margin-left: 0.9rem;
     }
+    /* Book Car */
+    .cards{
+        width: 90%;
+        margin: auto;
+    }
+    .BookCarImg{
+        height: 130px;
+    }
 }
 @media only screen and (max-width:1300px){
     /* Nav1 */
@@ -43,6 +51,10 @@
     }
     .DreamCarImg img{
         width: 100%;
+    }
+    /* filter */
+    .filter{
+        width: 80%;
     }
     /* Timing */
     .timing{
@@ -105,8 +117,23 @@
         font-size: 1.4rem;
         margin-left: 0.4rem;
     }
+    /* filter */
+    .filter{
+        width: 85%;
+    }
+    /* Book Car */
+    .cards{
+        width: 100%;
+        margin: auto;
+    }
+    .BookCarImg{
+        height: 110px;
+    }
+    .carsignals{
+        padding-left: 0.7rem;
+    }
 }
-@media only screen and (max-width:992px){
+@media only screen and (max-width:991px){
     /* Nav1 */
     .lang{
         width: 35%;
@@ -155,6 +182,10 @@
     .loginMenu button{
         display: inline;
     }
+    /* filter */
+    .filter{
+        width: 65%;
+    }
     /* Timing */
     .timing{
         position: static;
@@ -169,6 +200,21 @@
     .number h1:nth-child(2){
         font-size: 1.4rem;
         margin-left: 1.5rem;
+    }
+    /* Suitable Car */
+    .suitableCar p{
+        width: 80%;
+    }
+    /* Book Car */
+    .cards{
+        width: 90%;
+        margin: auto;
+    }
+    .BookCarImg{
+        height: 190px;
+    }
+    .carsignals{
+        padding-left: 1.5rem;
     }
 }
 @media only screen and (max-width:880px){
@@ -194,8 +240,16 @@
     .RentCarTxt{
         width: 60%;
     }
+    /* Book Car */
+    .BookCarImg{
+        height: 160px;
+    }
+    /* Off30 */
+    .off30{
+        padding: 3rem;
+    }
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:767px){
     /* Nav1 */
     .nav1{
         padding: 1rem 2rem;
@@ -234,15 +288,24 @@
     .RentCarTxt{
         width: 70%;
     }
-    .counter{
-
-    }
     /* Counter */
     .number{
         width: 100%;
         margin: 15px auto;
         border-bottom: 1px solid #005085;
         padding-bottom: 10px;
+    }
+    /* Book Car */
+    .cards{
+        width: 70%;
+    }
+    .BookCarImg{
+        height: 190px;
+        width: 65%;
+    }
+    /* Off30 */
+    .off30{
+        padding: 2rem;
     }
 }
 @media only screen and (max-width:576px){
@@ -276,12 +339,36 @@
     }
     /* Services */
     .cars{
-        width: 60%;
+        width: 70%;
         margin: auto;
     }
     .cars img{
         width: 100%;
-
+    }
+    /* Suitable car */
+    .suitableCar h1{
+        font-size: 2.2rem;
+    }
+    .suitableCar p{
+        width: 80%;
+    }
+    /* Book Car */
+    .cards{
+        width: 80%;
+    }
+    .BookCarImg{
+        height: 150px
+    }
+    /* Off30 */
+    .off30{
+        padding: 1rem;
+    }
+}
+@media only screen and (max-width:440px){
+    /* Book Car */
+    .BookCarImg{
+        height: 120px;
+        width: 80%;
     }
 }
 @media only screen and (max-width:380px){
@@ -309,5 +396,22 @@
     /* Rent Car */
     .RentCarTxt h1{
         font-size: 2.4rem;
+    }
+    /* BOok Car */
+    .reviews{
+        padding-left: 0.7rem;
+    }
+    .carsignals{
+        padding-left: 1rem;
+    }
+}
+@media only screen and (min-width:576px){
+    .carousel-inner{
+        display: flex;
+    }
+    .carousel-item{
+        flex: 0 0 calc(100%/4);
+        display: block;
+        margin-right: 0;
     }
 }
