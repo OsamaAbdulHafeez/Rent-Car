@@ -1,41 +1,52 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #000;
 }
-body{
-    
-}
+
+body {}
+
 /* Nav1 */
-.nav1{
+.nav1 {
     background-color: #005085;
     display: flex;
     justify-content: space-between;
     padding: 1rem 4rem;
 }
-.country,.language,.currency{
+
+.country,
+.language,
+.currency {
     display: flex;
     margin-right: 10px;
 }
-.country img,.language img,.currency img{
+
+.country img,
+.language img,
+.currency img {
     width: 32px;
     height: 20px;
 }
-.country h2,.language h2,.currency h2{
+
+.country h2,
+.language h2,
+.currency h2 {
     padding-left: 10px;
     color: #fff;
     font-size: 14px;
     align-self: center;
     margin-bottom: 0;
 }
-.lang{
+
+.lang {
     display: flex;
     width: 23%;
     justify-content: space-evenly;
 }
+
 /* Nav2 */
-.nav2{
+.nav2 {
     display: flex;
     /* background-color: #fdfde1; */
     background-color: #ffff;
@@ -43,27 +54,32 @@ body{
     align-items: center;
     padding: 1.2rem 6rem;
 }
+
 /* .burger{
     display: none;
 }
 .burger img{
     width: 40px;
 } */
-.checkbtn{
+.checkbtn {
     font-size: 40px;
     display: none;
     float: right;
 }
-#check{
+
+#check {
     display: none;
 }
-.logo{
+
+.logo {
     display: flex;
 }
-.logo img{
+
+.logo img {
     width: 60px;
 }
-.logo h2{
+
+.logo h2 {
     color: #19a9e5;
     font-weight: 600;
     align-self: center;
@@ -71,27 +87,33 @@ body{
     padding-left: 10px;
     font-size: 2.5rem;
 }
-.menu{
+
+.menu {
     width: 48%;
 }
-.menu ul{
+
+.menu ul {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0;
 }
-.menu ul li{
+
+.menu ul li {
     list-style: none;
 }
-.menu li a{
+
+.menu li a {
     color: #3b3b3b;
     text-decoration: none;
     font-weight: 600;
     font-size: 20px;
 }
-.loginMenu a{
+
+.loginMenu a {
     display: none;
 }
-.loginMenu button{
+
+.loginMenu button {
     background-color: #19a9e5;
     padding: 12px 20px;
     border: none;
@@ -100,17 +122,20 @@ body{
     border-radius: 5px;
     display: none;
 }
-.loginMenu button i{
+
+.loginMenu button i {
     margin-left: 10px;
     color: #fff;
 }
-.login a{
+
+.login a {
     color: #3b3b3b;
     text-decoration: none;
     font-weight: 600;
     font-size: 20px;
 }
-.login button{
+
+.login button {
     margin-left: 20px;
     background-color: #19a9e5;
     padding: 12px 20px;
@@ -119,25 +144,30 @@ body{
     font-weight: 600;
     border-radius: 5px;
 }
-.login button i{
+
+.login button i {
     margin-left: 10px;
     color: #fff;
 }
+
 /* Dreams Car */
-.Dreams_Car{
+.Dreams_Car {
     background-color: #f5f6fb;
     padding: 5rem 0;
     position: relative;
 }
-.DreamCarTxt{
+
+.DreamCarTxt {
     padding-left: 5rem;
 }
-.DreamCarTxt h3{
+
+.DreamCarTxt h3 {
     font-weight: 600;
     font-size: 28px;
-    
+
 }
-.DreamCarTxt h1{
+
+.DreamCarTxt h1 {
     margin-top: 1rem;
     font-weight: 600;
     font-size: 4rem;
@@ -145,28 +175,34 @@ body{
     width: 80%;
     line-height: 1;
 }
-.DreamCarTxt p{
+
+.DreamCarTxt p {
     width: 80%;
     margin-top: 2rem;
     font-weight: 600;
     font-size: 20px;
     color: #6e6e6e;
 }
-.storeBtn{
+
+.storeBtn {
     display: flex;
     margin-top: 2rem;
 }
-.storeBtn img{
+
+.storeBtn img {
     width: 30%;
 }
-.DreamCarImg{
+
+.DreamCarImg {
     align-self: center;
 }
-.DreamCarImg img{
+
+.DreamCarImg img {
     width: 100%;
 }
+
 /* TIming Section */
-.timing{
+.timing {
     background-color: #ffff;
     box-shadow: 0 0 15px #cacaca;
     display: flex;
@@ -180,15 +216,18 @@ body{
     left: 28rem;
     flex-wrap: wrap;
 }
-.Location{
+
+.Location {
     display: flex;
     padding: 1rem 2rem;
     width: 22%;
 }
-.Location i{
+
+.Location i {
     align-self: center;
 }
-.Location input{
+
+.Location input {
     border: none;
     margin-bottom: 0;
     align-self: center;
@@ -197,32 +236,48 @@ body{
     height: 25px;
     width: 80%;
 }
-.Date,.Time,.DrpDate{
+
+.Date,
+.Time,
+.DrpDate {
     display: flex;
     padding: 1rem 0;
     width: 12%;
 }
-.Date{
+
+.Date {
     width: 20%;
 }
-.DrpDate{
+
+.DrpDate {
     width: 20%;
 }
-.Date i,.Time i,.DrpDate i{
+
+.Date i,
+.Time i,
+.DrpDate i {
     font-size: 25px;
 }
-.Date p:nth-child(1),.Time p:nth-child(1),.DrpDate p:nth-child(1){
+
+.Date p:nth-child(1),
+.Time p:nth-child(1),
+.DrpDate p:nth-child(1) {
     color: #5a5a5a;
     font-weight: 600;
     margin-bottom: 0;
     font-size: 16px;
 }
-.Date p:nth-child(2),.Time p:nth-child(2),.DrpDate p:nth-child(2){
-    color: #5a5a5a;;
+
+.Date p:nth-child(2),
+.Time p:nth-child(2),
+.DrpDate p:nth-child(2) {
+    color: #5a5a5a;
+    ;
     font-weight: 700;
     margin-bottom: 0;
 }
-.Search{
+
+.Search {
     width: 13%;
     background-color: #19a9e5;
     color: #fff;
@@ -232,45 +287,56 @@ body{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-.Search p{
+
+.Search p {
     color: #fff;
 }
+
 /* RentCar */
-.RentCar{
+.RentCar {
     width: 100%;
     padding: 4rem 0;
 }
-.RentCarTxt{
+
+.RentCarTxt {
     width: 32%;
     padding: 4rem 0 6rem 4rem;
 }
-.RentCarTxt h1{
+
+.RentCarTxt h1 {
     font-size: 3.2rem;
-    font-weight: 600; 
+    font-weight: 600;
 }
-.RentCarTxt span,.DreamCarTxt span,.BetterExperienceTxt span{
+
+.RentCarTxt span,
+.DreamCarTxt span,
+.BetterExperienceTxt span {
     /* color: #ed9118; */
     background: -webkit-linear-gradient(#ff0c0c, #ed9118);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.counter{
+
+.counter {
     background-color: #fff;
     box-shadow: 0 0 15px #cacaca;
     padding: 3rem 4rem;
     width: 100%;
 }
-.number{
+
+.number {
     display: flex;
 }
-.number h1:nth-child(1){
+
+.number h1:nth-child(1) {
     color: #19a9e5;
     font-size: 3.5rem;
     font-weight: 600;
     margin-bottom: 0;
-    
+
 }
-.number h1:nth-child(2){
+
+.number h1:nth-child(2) {
     color: #3b3b3b;
     font-size: 1.6rem;
     align-self: center;
@@ -278,13 +344,15 @@ body{
     margin-left: 0.9rem;
     margin-bottom: 0;
 }
+
 /* Services */
-.services h2{
+.services h2 {
     font-weight: 600;
     font-size: 1.9rem;
     margin-bottom: 0;
 }
-.services select{
+
+.services select {
     color: #19a9e5;
     border: none;
     background: transparent;
@@ -292,23 +360,28 @@ body{
     font-weight: 600;
     align-self: center;
 }
-.services select option{
+
+.services select option {
     font-size: 16px;
 }
-.cars img{
+
+.cars img {
     height: 150px;
     width: 100%;
 }
-.cars h2{
+
+.cars h2 {
     font-weight: 600;
     font-size: 28px;
 }
-.cars p{
+
+.cars p {
     color: #3b3b3b;
     font-size: 22px;
     font-weight: 600;
 }
-.cars button{
+
+.cars button {
     width: 90%;
     margin: auto;
     background: transparent;
@@ -317,31 +390,37 @@ body{
     font-size: 22px;
     height: 2.8rem;
 }
-.cars button i{
+
+.cars button i {
     color: #19a9e5;
     padding-left: 15px;
 }
+
 /* Suitable Car */
-.suitableCar{
+.suitableCar {
     background-color: #faf5ed;
     padding: 20px;
 }
-.suitableCar h1{
+
+.suitableCar h1 {
     font-size: 3rem;
     font-weight: 600;
 }
-.suitableCar p{
+
+.suitableCar p {
     font-size: 20px;
     color: #3b3b3b;
     font-weight: 600;
     width: 40%;
     margin: auto;
 }
-.filter{
+
+.filter {
     width: 60%;
     margin: auto;
 }
-.filter select{
+
+.filter select {
     width: 100%;
     height: 2.8rem;
     padding-left: 10px;
@@ -352,10 +431,12 @@ body{
     font-weight: 600;
     color: #5a5a5a;
 }
-.filter select option{
+
+.filter select option {
     background: transparent;
 }
-.filter button{
+
+.filter button {
     width: 100%;
     height: 2.8rem;
     background-color: #19a9e5;
@@ -364,26 +445,31 @@ body{
     color: #fff;
     font-weight: 600;
 }
+
 /* Book Car */
-.cards{
+.cards {
     width: 90%;
     margin: auto;
 }
-.BookCar{
+
+.BookCar {
     border: none;
     background-color: #fff;
     box-shadow: 0 0 10px #cacaca;
     border-radius: 7px;
 }
-.BookCarImg{
+
+.BookCarImg {
     height: 160px;
     width: 80%;
     margin: auto;
 }
-.BookCarImg img{
-    width: 100%;   
+
+.BookCarImg img {
+    width: 100%;
 }
-.BookCar h2{
+
+.BookCar h2 {
     color: #2d6295;
     font-size: 2rem;
     font-weight: 600;
@@ -391,18 +477,21 @@ body{
     padding-left: 1.5rem;
     margin-top: 1rem;
 }
-.BookCar h3{
+
+.BookCar h3 {
     margin-top: 1rem;
     padding-left: 1.5rem;
     color: #000;
     font-size: 30px;
     font-weight: 700;
 }
-.BookCar h3 span{
+
+.BookCar h3 span {
     color: #6e6e6e;
     font-weight: 600;
 }
-.BookCar button{
+
+.BookCar button {
     width: 100%;
     margin-top: 20px;
     color: #fff;
@@ -412,80 +501,94 @@ body{
     border-top-right-radius: 0;
     border-top-left-radius: 0;
 }
-.reviews{
+
+.reviews {
     margin-top: 1rem;
     padding-left: 1.5rem;
 }
-.reviews i{
+
+.reviews i {
     color: #ffa614;
-    
+
 }
-.reviews span{
+
+.reviews span {
     color: #5a5a5a;
     font-weight: 600;
     font-size: 20px;
     padding-left: 1.5rem;
 }
-.carsignals{
+
+.carsignals {
     margin-top: 1.5rem;
     padding-left: 1.5rem;
     display: flex;
     justify-content: start;
 }
-.signal{
+
+.signal {
     width: 60px;
 }
-.signal p{
+
+.signal p {
     font-size: 16px;
     margin: auto;
     width: 90%;
     font-weight: 600;
 }
-.carsignals i{
+
+.carsignals i {
     background-color: #e1f1fe;
     padding: 10px;
     border-radius: 7px;
     color: #19a9e5;
     font-size: 24px;
 }
+
 /* 30% off */
-.off30{
+.off30 {
     padding: 5rem;
 }
-.off30 img{
+
+.off30 img {
     width: 100%;
     /* height: 100px; */
 }
+
 /* Better Experience */
-.BtExperienceImg{
-    
-}
-.BtExperienceImg img{
+.BtExperienceImg {}
+
+.BtExperienceImg img {
     width: 90%;
 }
-.BetterExperienceTxt h3{
+
+.BetterExperienceTxt h3 {
     color: #005085;
     font-weight: 600;
     font-size: 24px;
     width: 70%;
 }
-.BetterExperienceTxt h1{
+
+.BetterExperienceTxt h1 {
     font-weight: 600;
     font-size: 2.8rem;
     width: 70%;
 }
-.BetterExperienceTxt p{
+
+.BetterExperienceTxt p {
     margin-top: 1.5rem;
     font-size: 20px;
     color: #5a5a5a;
     font-weight: 600;
     width: 70%;
 }
-.RentBestService{
+
+.RentBestService {
     display: flex;
     padding: 1rem 0;
 }
-.RentBestService i{
+
+.RentBestService i {
     background-color: #e1f1fe;
     padding: 10px;
     border-radius: 7px;
@@ -495,21 +598,82 @@ body{
     border: 2px solid #19a9e5;
     margin-top: 1rem;
 }
-.RentBestServiceTxt{
+
+.RentBestServiceTxt {
     padding-left: 1rem;
     width: 90%;
 }
-.RentBestServiceTxt h3{
+
+.RentBestServiceTxt h3 {
     font-size: 22px;
     color: #3b3b3b;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
 }
-.RentBestServiceTxt p{
+
+.RentBestServiceTxt p {
     width: 70%;
     margin-top: 0;
     font-size: 16px;
     font-weight: 600;
     color: #5a5a5a;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+/* Testimonial */
+.testimonial {
+    background-color: #f7fcff;
+}
+
+.testimonial .CusStory h3 {
+    color: #003457;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.testimonial .HppyCus h1 {
+    width: 70%;
+    margin: auto;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.testimonial p {
+    color: #3b3b3b;
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+.testimonial .CusRating .reviews {
+    font-size: 22px;
+}
+
+.testimonial .CusRating .reviews span {
+    color: #151515;
+    margin-left: -10px;
+    font-size: 22px;
+}
+
+#Pilot {
+    color: #19a9e5;
+    margin-left: -25px;
+}
+
+.customerRviews {
+    background-color: #fff;
+    box-shadow: 0 0 15px #cacaca;
+    margin: 5rem 0;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 2rem 1rem;
+}
+.customerRviews h2{
+    font-size: 26px;
+}
+.customerRviews .reviews{
+    padding-left: 0;
+}
+.customerRviews p{
+    font-size: 20px;
 }

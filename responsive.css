@@ -354,7 +354,7 @@
     }
     /* Book Car */
     .cards{
-        width: 80%;
+        width: 100%;
     }
     .BookCarImg{
         height: 150px
@@ -369,6 +369,9 @@
     .BookCarImg{
         height: 120px;
         width: 80%;
+    }
+    .card-body{
+        margin-top: 30px;
     }
 }
 @media only screen and (max-width:380px){
